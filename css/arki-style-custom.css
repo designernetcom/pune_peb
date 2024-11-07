@@ -312,8 +312,8 @@ body.single-post .arki-sidebar-style-none, body.blog .arki-sidebar-style-none, .
 .arki-navigation-background{ background-color: #f4f4f4; } 
 .arki-navigation-bar-wrap{ border-color: #e8e8e8; } 
 .arki-navigation .arki-navigation-slide-bar, .arki-navigation .arki-navigation-slide-bar-style-dot:before{ border-color: #232323; }.arki-navigation .arki-navigation-slide-bar:before{ border-bottom-color: #232323; } 
-.sf-menu > li > a, .sf-vertical > li > a{ color: #939393; } 
-.sf-menu > li > a:hover, .sf-menu > li.current-menu-item > a, .sf-menu > li.current-menu-ancestor > a, .sf-vertical > li > a:hover, .sf-vertical > li.current-menu-item > a, .sf-vertical > li.current-menu-ancestor > a{ color: #474747; } 
+.sf-menu > li > a, .sf-vertical > li > a{ color: #000; } 
+.sf-menu > li > a:hover, .sf-menu > li.current-menu-item > a, .sf-menu > li.current-menu-ancestor > a, .sf-vertical > li > a:hover, .sf-vertical > li.current-menu-item > a, .sf-vertical > li.current-menu-ancestor > a{ color: #f26426; } 
 .sf-menu > .arki-normal-menu li, .sf-menu > .arki-mega-menu > .sf-mega, .sf-vertical ul.sub-menu li, ul.sf-menu > .menu-item-language li{ background-color: #f4f4f4; } 
 .sf-menu > li > .sub-menu a, .sf-menu > .arki-mega-menu > .sf-mega a, .sf-vertical ul.sub-menu li a{ color: #757575; } 
 .sf-menu > li > .sub-menu a:hover, .sf-menu > li > .sub-menu .current-menu-item > a, .sf-menu > li > .sub-menu .current-menu-ancestor > a, .sf-menu > .arki-mega-menu > .sf-mega a:hover, .sf-menu > .arki-mega-menu > .sf-mega .current-menu-item > a, .sf-vertical > li > .sub-menu a:hover, .sf-vertical > li > .sub-menu .current-menu-item > a, .sf-vertical > li > .sub-menu .current-menu-ancestor > a{ color: #161616; } 
@@ -3922,7 +3922,7 @@ body.page-id-13704.single-product .arki-header-background-transparent {
 }
 @media only screen and (max-width: 767px) {
     #gdlr-core-wrapper-1.gdlr-core-pbf-wrapper {
-        padding-top: 100px !important;
+        padding-top: 20px !important;
     }
 }
 #gdlr-core-column-98684:hover .gdlr-core-pbf-column-content-margin,
@@ -4618,8 +4618,8 @@ body.page-id-13724.single-product .arki-header-background-transparent {
 }
 @media only screen and (max-width: 767px) {
     #gdlr-core-wrapper-1.gdlr-core-pbf-wrapper {
-        padding-top: 60px !important;
-        padding-bottom: 70px !important;
+        /* padding-top: 60px !important;
+        padding-bottom: 70px !important; */
     }
 }
 #gdlr-core-column-34663:hover .gdlr-core-pbf-column-content-margin,
